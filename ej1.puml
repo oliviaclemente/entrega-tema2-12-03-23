@@ -1,0 +1,20 @@
+@startuml
+
+class Punto {
+  -x: float
+  -y: float
+
+  +__init__(self, x=0, y=0)
+  +__str__(self) : str
+  +cuadrante(self) : str
+  +vector(self, otro_punto) : str
+  +distancia(self, otro_punto) : float
+}
+
+Punto --> Punto
+@enduml
+
+
+
+
+
